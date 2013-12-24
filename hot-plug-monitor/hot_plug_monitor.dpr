@@ -1,6 +1,6 @@
 {*******************************************************}
 {                                                       }
-{       Hot-plug monitor                                }
+{       Hot-plug monitor example                        }
 {                                                       }
 {       Copyright (C) 12/2013                           }
 {                                                       }
