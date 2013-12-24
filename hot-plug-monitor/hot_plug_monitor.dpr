@@ -78,7 +78,7 @@ begin
     hotParams.OnHotPlug := OnHotPlug;
     hotParams.Flags := hotParams.Flags or KHOT_FLAG_PLUG_ALL_ON_INIT;
 
-    StrCopy(hotParams.PatternMatch.DeviceInterfaceGUID, '{53906475-A5A1-23C2-43C9-79CE0E44AD83}');
+    StrCopy(hotParams.PatternMatch.DeviceInterfaceGUID, '{53906475-A5A1-23C2-43C9-79CE0E44AD83}'); //add your device interface guid
 
     Writeln('Initialize a HotK device notification event monitor.');
     Writeln('Looking for "DeviceInterfaceGUID"s matching the pattern :', hotParams.PatternMatch.DeviceInterfaceGUID);
