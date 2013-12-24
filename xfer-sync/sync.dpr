@@ -1,3 +1,15 @@
+{*******************************************************}
+{                                                       }
+{       Synchronously transfer                          }
+{                                                       }
+{       Copyright (C) 12/2013                           }
+{                                                       }
+{       Author  : SimaWB                                }
+{       Email   : simawb@gmail.com                      }
+{                                                       }
+{       http://stackoverflow.com/users/62313/simawb     }
+{                                                       }
+{*******************************************************}
 program sync;
 
 {$APPTYPE CONSOLE}
