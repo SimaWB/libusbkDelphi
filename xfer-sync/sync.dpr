@@ -48,7 +48,7 @@ begin
   errorcode := 0; totalLength := 0;
   try
     if not DllAvailable then
-      raise Exception.Create('Dll bulunamadý!');
+      raise Exception.Create('Dll not found!');
 
     try
       if not LstK_Init(deviceList, 0) then
